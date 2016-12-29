@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-std=-std=c99 -Wall -lncurses
+CFLAGS=-std=c99 -Wall -lncurses
 SOURCES=rootshell.c
 EXECUTABLE=rootshell
 INSTALLDIR=/usr/local/bin
