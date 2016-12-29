@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-std=c99
+CFLAGS=-std=-std=c99 -Wall -lncurses
 SOURCES=rootshell.c
 EXECUTABLE=rootshell
 INSTALLDIR=/usr/local/bin
@@ -10,7 +10,7 @@ all: $(SOURCES)
 
 install:
 	mkdir -p $(INSTALLDIR)
-	cp $(EXECUTABLE) $(INSTALLDIR)/
+	sudo cp $(EXECUTABLE) $(INSTALLDIR)/
 
 uninstall:
 	rm $(INSTALLDIR)/$(EXECUTABLE)
