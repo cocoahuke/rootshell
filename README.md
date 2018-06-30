@@ -12,11 +12,5 @@ rootshell-3.2# echo ~
 rootshell-3.2#
 ```
 
-<<<<<<< HEAD
 Tested on MacOS
-=======
-###simple wrap of sudo login without password everytime
-![rootshell_icon](demo.gif)
 
-test in Macos/linux debian
->>>>>>> origin/master
